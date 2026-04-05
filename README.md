@@ -39,12 +39,13 @@ Stratified train/test split to preserve class ratio
 
 Model training
 
-Logistic Regression — StandardScaler + L2, max_iter=1000, random_state=0
-Random Forest — Grid Search over n_estimators [100, 200], max_depth [10, 20, None], min_samples_split [2, 5] → best: max_depth=None, min_samples_split=2, n_estimators=200
-
+Logistic Regression 
+Random Forest 
 
  Model Evaluation
+ 
 Confusion Matrices
+
 Logistic Regression          Random Forest
   Predicted                    Predicted
   ≤50K  >50K                   ≤50K  >50K
