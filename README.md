@@ -49,9 +49,13 @@ Confusion Matrices
 
 Logistic Regression          Random Forest
  
+
+
+
+
   
-  Predicted                    Predicted
-  ≤50K  >50K                   ≤50K  >50K
+Predicted                    Predicted  
+≤50K  >50K                   ≤50K  >50K
 ┌──────┬──────┐             ┌──────┬──────┐
 │ 3622 │  369 │  ≤50K True  │ 3046 │  542 │
 │  266 │ 1250 │  >50K True  │  361 │ 1159 │  ← better recall
@@ -60,6 +64,10 @@ ROC Curves
 
 LR: AUC = 0.902
 RF: AUC = 0.912
+
+
+
+
 
 What I Learned
 
