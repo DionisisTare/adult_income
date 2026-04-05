@@ -46,7 +46,10 @@ Random Forest
  
 Confusion Matrices
 
+
 Logistic Regression          Random Forest
+ 
+  
   Predicted                    Predicted
   ≤50K  >50K                   ≤50K  >50K
 ┌──────┬──────┐             ┌──────┬──────┐
@@ -57,10 +60,6 @@ ROC Curves
 
 LR: AUC = 0.902
 RF: AUC = 0.912
-
-
- Top 15 Feature Importances (Random Forest)
-RankFeatureImportance1age0.1642marital_status_Married-civ-spouse0.1293education_num0.1194capital_gain0.1015hours_per_week0.0846marital_status_Never-married0.0687sex_Male0.043
 
 What I Learned
 
