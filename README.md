@@ -6,7 +6,8 @@ Full machine learning pipeline on the UCI Adult Census dataset (48,842 records):
 
 
  Key Results at a Glance
-MetricLogistic RegressionRandom ForestAccuracy0.8500.860AUC-ROC0.9020.912F1 Score0.6920.729Precision0.7780.697Recall0.6220.764
+<img width="397" height="205" alt="image" src="https://github.com/user-attachments/assets/b87e21bb-56d1-4dfc-a907-4ff98f2d14a1" />
+
 
 Baseline (Majority Classifier): Accuracy = 0.759 — both models substantially outperform the naive baseline.
 
