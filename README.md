@@ -44,18 +44,24 @@ Random Forest
 
  Model Evaluation
  
-Confusion Matrices
 
+### Confusion Matrices
 
-Logistic Regression          Random Forest
+**Logistic Regression**
 
- Logistic Regression          Random Forest
-  Predicted                    Predicted
-  ≤50K  >50K                   ≤50K  >50K
-┌──────┬──────┐             ┌──────┬──────┐
-│ 3622 │  369 │  ≤50K True  │ 3046 │  542 │
-│  266 │ 1250 │  >50K True  │  361 │ 1159 │  ← better recall
-└──────┴──────┘             └──────┴──────┘
+| | Predicted ≤50K | Predicted >50K |
+|---|---|---|
+| **True ≤50K** | 3622 | 369 |
+| **True >50K** | 266 | 1250 |
+
+**Random Forest**
+
+| | Predicted ≤50K | Predicted >50K |
+|---|---|---|
+| **True ≤50K** | 3046 | 542 |
+| **True >50K** | 361 | 1159 |
+
+> Random Forest catches significantly more >$50K earners (Recall: 0.764 vs 0.622)
 ROC Curves
 
 LR: AUC = 0.902
