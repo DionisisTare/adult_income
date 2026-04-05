@@ -69,7 +69,6 @@ Grid Search on Random Forest confirmed that deeper trees (max_depth=None) with m
 Age dominates all other features (importance = 0.164), followed by marital status and education — a finding that aligns with labor economics literature and validates the model's real-world interpretability.
 Preprocessing decisions (dropping vs imputing missing values, handling redundant features like education vs education_num) had measurable impact on final performance.
 
-
  Tech Stack
 Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · Jupyter Notebook.
 
