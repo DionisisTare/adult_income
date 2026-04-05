@@ -48,14 +48,10 @@ Confusion Matrices
 
 
 Logistic Regression          Random Forest
- 
 
-
-
-
-  
-Predicted                    Predicted  
-≤50K  >50K                   ≤50K  >50K
+ Logistic Regression          Random Forest
+  Predicted                    Predicted
+  ≤50K  >50K                   ≤50K  >50K
 ┌──────┬──────┐             ┌──────┬──────┐
 │ 3622 │  369 │  ≤50K True  │ 3046 │  542 │
 │  266 │ 1250 │  >50K True  │  361 │ 1159 │  ← better recall
